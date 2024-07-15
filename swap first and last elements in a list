@@ -1,0 +1,7 @@
+def swap_first_last (my_List):
+    if len(my_list)>=2:
+        my_list[0],my_list[-1]=my_list[-1],my_list[0]
+my_list=[12,27,34,94,85]
+print("list:",my_list)
+swap_first_last(my_list)
+print("after swapping",my_list)
