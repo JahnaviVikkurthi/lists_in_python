@@ -1,0 +1,7 @@
+a=input("")
+vowels= [ch for ch in a if ch in "AaEeIi0oUu"]
+Cons = [ch for ch in a if ch not in "ΑΕΙΟUaeiou"]
+print (len (vowels))
+print (vowels)
+print(len(Cons))
+print(Cons)
