@@ -1,0 +1,8 @@
+string = input()
+string_length=len(string)
+if "ing" in string:
+    print (string + 'ly')
+elif string_length>3:
+    print (string+'ing')
+else:
+    print (string)
