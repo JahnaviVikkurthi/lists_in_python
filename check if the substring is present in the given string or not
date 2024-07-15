@@ -1,0 +1,6 @@
+str = "window activate"
+substr = "window"
+if substr in str:
+    print("substr present")
+else:
+    print("substr not present")
